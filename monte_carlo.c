@@ -4,7 +4,6 @@
 #include <math.h>
 
 float mc_pi(int);
-
 float mc_pi(int p){
     int count=0;
     int total=0;
