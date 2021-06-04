@@ -4,7 +4,8 @@
 #include <math.h>
 
 float mc_pi(int);
-float mc_pi(int p){
+float mc_pi(int p)
+{
     int count=0;
     int total=0;
     float pi=0;
@@ -19,13 +20,15 @@ float mc_pi(int p){
        
               return pi;
     }
-float frandom() {
+float frandom()
+{
   long int q = random();
   float ret = (float)q/(float)RAND_MAX;
   return ret;
 }
 
-int main(void) {
+int main(void) 
+{
   float pi0;
   float pi1;
   
