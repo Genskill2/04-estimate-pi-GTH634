@@ -4,6 +4,7 @@
 #include <math.h>
 
 float wallis_pi(int);
+
 float wallis_pi(int n){
   float product=1;
   for(int i=1; i<=n; i++){	
@@ -29,4 +30,3 @@ int main(void) {
     }
   }
 }
-
